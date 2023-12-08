@@ -1,0 +1,11 @@
+### Listar IMC ###
+GET https://localhost:7278/api/usuario/listar
+
+### Criar IMC ###
+POST https://localhost:7278/api/usuario/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "João",
+    "dataNascimento": "2002-06-19"
+}
